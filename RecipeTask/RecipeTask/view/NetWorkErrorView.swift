@@ -53,9 +53,5 @@ class NetWorkErrorView: UIView {
         Img.image = Gif
         return view
     }
-    @IBAction func TryConnectionAgin(_ sender: Any) {//reloadNews
-        NotificationCenter.default.post(name: Notification.Name("reloadNews"), object: nil)
-
-    }
-
+   
 }
