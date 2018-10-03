@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DIN Next LT Arabic Regular.ttf">
+            <string>DINNextLTArabic-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoadingView" customModule="RecipeTask" customModuleProvider="target">
+            <connections>
+                <outlet property="Img" destination="ayf-Fm-iqz" id="ToC-hn-2m3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="HLP-7o-j3I">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ayf-Fm-iqz">
+                    <rect key="frame" x="40" y="156" width="297" height="247"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="247" id="5u5-s7-bW2"/>
+                        <constraint firstAttribute="width" constant="297" id="Plx-pH-v7d"/>
+                        <constraint firstAttribute="width" secondItem="ayf-Fm-iqz" secondAttribute="height" multiplier="251:169" constant="-69.846153846153868" id="eS3-lX-a5X"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="wait for loading please" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwO-Qm-cbd">
+                    <rect key="frame" x="21" y="403" width="335" height="39"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="39" id="ma3-Rq-EBW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="18"/>
+                    <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.94955247639999996" green="0.96453839539999997" blue="0.98190170529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ayf-Fm-iqz" firstAttribute="centerY" secondItem="ZEO-HM-gKG" secondAttribute="centerY" constant="-64" id="Y8u-VV-cCS"/>
+                <constraint firstItem="bwO-Qm-cbd" firstAttribute="leading" secondItem="ZEO-HM-gKG" secondAttribute="leading" constant="21" id="ahi-I1-AlG"/>
+                <constraint firstItem="bwO-Qm-cbd" firstAttribute="top" secondItem="ayf-Fm-iqz" secondAttribute="bottom" id="pXf-6U-7fo"/>
+                <constraint firstItem="ayf-Fm-iqz" firstAttribute="centerX" secondItem="ZEO-HM-gKG" secondAttribute="centerX" constant="1" id="x1V-p4-MBq"/>
+                <constraint firstItem="ZEO-HM-gKG" firstAttribute="trailing" secondItem="bwO-Qm-cbd" secondAttribute="trailing" constant="19" id="yLr-en-o8w"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZEO-HM-gKG"/>
+            <point key="canvasLocation" x="92.5" y="80.5"/>
+        </view>
+    </objects>
+</document>

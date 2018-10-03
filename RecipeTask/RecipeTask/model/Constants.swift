@@ -10,17 +10,20 @@ import UIKit
 
 class Constants: NSObject {
     struct  KeysAndValues {
-
         static let KEY_APPID = "891e21ef"
         static let KEY_APPKEY = "73392a19085f38fad7af987eb33ef032"
 
 
     }
-
-
     struct WebService {
         static let URLBASE = "https://api.edamam.com/search"
-
-
+    }
+    struct FontHelper {
+        static func defaultRegularFontWithSize(size: CGFloat) -> UIFont {
+            return UIFont(name: "DINNextLTArabic-Regular", size: size)!
+        }
+        static func defaultBoldFontWithSize(size: CGFloat) -> UIFont {
+            return UIFont(name: "DINNextLTArabic-Regular", size: size)!
+        }
     }
 }

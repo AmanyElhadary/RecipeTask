@@ -16,6 +16,18 @@
 		048A6F3D216457130031CB33 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A6F3C216457130031CB33 /* Constants.swift */; };
 		048A6F3F2164577E0031CB33 /* DIN Next LT Arabic Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 048A6F3E2164577D0031CB33 /* DIN Next LT Arabic Regular.ttf */; };
 		048A6F452164606B0031CB33 /* RecipeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A6F442164606B0031CB33 /* RecipeObject.swift */; };
+		048A6F48216469980031CB33 /* RecipeSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A6F46216469980031CB33 /* RecipeSearchCell.swift */; };
+		048A6F49216469980031CB33 /* RecipeSearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048A6F47216469980031CB33 /* RecipeSearchCell.xib */; };
+		048A6F4B216471130031CB33 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A6F4A216471130031CB33 /* Reachability.swift */; };
+		048A6F4D216473CD0031CB33 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A6F4C216473CD0031CB33 /* LoadingView.swift */; };
+		048A6F4F216473DD0031CB33 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048A6F4E216473DD0031CB33 /* LoadingView.xib */; };
+		048A6F51216473F50031CB33 /* NetWorkErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048A6F50216473F50031CB33 /* NetWorkErrorView.xib */; };
+		048A6F53216473FE0031CB33 /* NetWorkErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A6F52216473FE0031CB33 /* NetWorkErrorView.swift */; };
+		048A6F55216476130031CB33 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A6F54216476130031CB33 /* Extensions.swift */; };
+		048A6F582164778B0031CB33 /* loadFail.gif in Resources */ = {isa = PBXBuildFile; fileRef = 048A6F562164778B0031CB33 /* loadFail.gif */; };
+		048A6F592164778B0031CB33 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 048A6F572164778B0031CB33 /* loading.gif */; };
+		048A6F5B216477FB0031CB33 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A6F5A216477FB0031CB33 /* iOSDevCenters+GIF.swift */; };
+		048A6F5E2164863A0031CB33 /* RecipeDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048A6F5D2164863A0031CB33 /* RecipeDetailsVC.swift */; };
 		C522136D257B95FFDCD2495D /* Pods_RecipeTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476C3BBDECDD306390AB8A1C /* Pods_RecipeTask.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +43,18 @@
 		048A6F3C216457130031CB33 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		048A6F3E2164577D0031CB33 /* DIN Next LT Arabic Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN Next LT Arabic Regular.ttf"; sourceTree = "<group>"; };
 		048A6F442164606B0031CB33 /* RecipeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeObject.swift; sourceTree = "<group>"; };
+		048A6F46216469980031CB33 /* RecipeSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeSearchCell.swift; sourceTree = "<group>"; };
+		048A6F47216469980031CB33 /* RecipeSearchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeSearchCell.xib; sourceTree = "<group>"; };
+		048A6F4A216471130031CB33 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		048A6F4C216473CD0031CB33 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		048A6F4E216473DD0031CB33 /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		048A6F50216473F50031CB33 /* NetWorkErrorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetWorkErrorView.xib; sourceTree = "<group>"; };
+		048A6F52216473FE0031CB33 /* NetWorkErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkErrorView.swift; sourceTree = "<group>"; };
+		048A6F54216476130031CB33 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		048A6F562164778B0031CB33 /* loadFail.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loadFail.gif; sourceTree = "<group>"; };
+		048A6F572164778B0031CB33 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		048A6F5A216477FB0031CB33 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		048A6F5D2164863A0031CB33 /* RecipeDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsVC.swift; sourceTree = "<group>"; };
 		14BE94A2B03D65A887EB2703 /* Pods-RecipeTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecipeTask/Pods-RecipeTask.release.xcconfig"; sourceTree = "<group>"; };
 		476C3BBDECDD306390AB8A1C /* Pods_RecipeTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecipeTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		717AF589D251F5D9DB2DBC72 /* Pods-RecipeTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecipeTask/Pods-RecipeTask.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,11 +93,12 @@
 		048A6EE4216449B90031CB33 /* RecipeTask */ = {
 			isa = PBXGroup;
 			children = (
+				048A6F5C2164780C0031CB33 /* extensions */,
 				048A6F43216457BA0031CB33 /* controller */,
 				048A6F42216457AA0031CB33 /* model */,
 				048A6F41216457A40031CB33 /* view */,
-				048A6F402164579C0031CB33 /* Resources */,
 				048A6EE5216449B90031CB33 /* AppDelegate.swift */,
+				048A6F402164579C0031CB33 /* Resources */,
 				048A6EEC216449B90031CB33 /* Assets.xcassets */,
 				048A6EEE216449B90031CB33 /* LaunchScreen.storyboard */,
 				048A6EF1216449B90031CB33 /* Info.plist */,
@@ -84,6 +109,8 @@
 		048A6F402164579C0031CB33 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				048A6F562164778B0031CB33 /* loadFail.gif */,
+				048A6F572164778B0031CB33 /* loading.gif */,
 				048A6F3E2164577D0031CB33 /* DIN Next LT Arabic Regular.ttf */,
 			);
 			path = Resources;
@@ -93,6 +120,12 @@
 			isa = PBXGroup;
 			children = (
 				048A6EE9216449B90031CB33 /* Main.storyboard */,
+				048A6F46216469980031CB33 /* RecipeSearchCell.swift */,
+				048A6F47216469980031CB33 /* RecipeSearchCell.xib */,
+				048A6F4C216473CD0031CB33 /* LoadingView.swift */,
+				048A6F4E216473DD0031CB33 /* LoadingView.xib */,
+				048A6F50216473F50031CB33 /* NetWorkErrorView.xib */,
+				048A6F52216473FE0031CB33 /* NetWorkErrorView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -100,6 +133,7 @@
 		048A6F42216457AA0031CB33 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				048A6F4A216471130031CB33 /* Reachability.swift */,
 				048A6F3C216457130031CB33 /* Constants.swift */,
 				048A6F3A216456D10031CB33 /* RecipeAPI.swift */,
 				048A6F442164606B0031CB33 /* RecipeObject.swift */,
@@ -111,8 +145,18 @@
 			isa = PBXGroup;
 			children = (
 				048A6EE7216449B90031CB33 /* RecipeSearchVC.swift */,
+				048A6F5D2164863A0031CB33 /* RecipeDetailsVC.swift */,
 			);
 			path = controller;
+			sourceTree = "<group>";
+		};
+		048A6F5C2164780C0031CB33 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				048A6F54216476130031CB33 /* Extensions.swift */,
+				048A6F5A216477FB0031CB33 /* iOSDevCenters+GIF.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 		1B7E58376071D2D24DF6325F /* Pods */ = {
@@ -197,7 +241,12 @@
 				048A6F3F2164577E0031CB33 /* DIN Next LT Arabic Regular.ttf in Resources */,
 				048A6EF0216449B90031CB33 /* LaunchScreen.storyboard in Resources */,
 				048A6EED216449B90031CB33 /* Assets.xcassets in Resources */,
+				048A6F4F216473DD0031CB33 /* LoadingView.xib in Resources */,
+				048A6F582164778B0031CB33 /* loadFail.gif in Resources */,
 				048A6EEB216449B90031CB33 /* Main.storyboard in Resources */,
+				048A6F592164778B0031CB33 /* loading.gif in Resources */,
+				048A6F49216469980031CB33 /* RecipeSearchCell.xib in Resources */,
+				048A6F51216473F50031CB33 /* NetWorkErrorView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +321,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048A6F53216473FE0031CB33 /* NetWorkErrorView.swift in Sources */,
+				048A6F4B216471130031CB33 /* Reachability.swift in Sources */,
+				048A6F5B216477FB0031CB33 /* iOSDevCenters+GIF.swift in Sources */,
 				048A6EE8216449B90031CB33 /* RecipeSearchVC.swift in Sources */,
 				048A6EE6216449B90031CB33 /* AppDelegate.swift in Sources */,
 				048A6F3B216456D10031CB33 /* RecipeAPI.swift in Sources */,
+				048A6F55216476130031CB33 /* Extensions.swift in Sources */,
 				048A6F452164606B0031CB33 /* RecipeObject.swift in Sources */,
+				048A6F4D216473CD0031CB33 /* LoadingView.swift in Sources */,
 				048A6F3D216457130031CB33 /* Constants.swift in Sources */,
+				048A6F48216469980031CB33 /* RecipeSearchCell.swift in Sources */,
+				048A6F5E2164863A0031CB33 /* RecipeDetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
