@@ -33,40 +33,20 @@
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connection Error !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CgY-jx-70X">
-                    <rect key="frame" x="125" y="437" width="126" height="39"/>
+                    <rect key="frame" x="117.5" y="437" width="141.5" height="39"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="39" id="gUr-mA-9Z2"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="16"/>
-                    <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="18"/>
+                    <color key="textColor" red="0.60079735519999999" green="0.19398662450000001" blue="0.4056833386" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ptr-Ha-vwn">
-                    <rect key="frame" x="84.5" y="484" width="206" height="30"/>
-                    <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="206" id="3dQ-Cf-a3w"/>
-                        <constraint firstAttribute="height" constant="30" id="9QZ-Ge-hpv"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="17"/>
-                    <state key="normal" title="press to retry">
-                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </state>
-                    <userDefinedRuntimeAttributes>
-                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                            <integer key="value" value="8"/>
-                        </userDefinedRuntimeAttribute>
-                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
-                    </userDefinedRuntimeAttributes>
-                </button>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.94500499963760376" green="0.94516319036483765" blue="0.94498413801193237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="47M-YU-HAK" firstAttribute="centerX" secondItem="1Sz-H0-AGX" secondAttribute="centerX" id="0mI-oi-ozn"/>
                 <constraint firstItem="47M-YU-HAK" firstAttribute="centerY" secondItem="1Sz-H0-AGX" secondAttribute="centerY" constant="-30" id="CUC-3D-rjC"/>
-                <constraint firstItem="Ptr-Ha-vwn" firstAttribute="top" secondItem="CgY-jx-70X" secondAttribute="bottom" constant="8" id="Cza-Aj-Jjj"/>
                 <constraint firstItem="CgY-jx-70X" firstAttribute="centerX" secondItem="1Sz-H0-AGX" secondAttribute="centerX" id="UIW-jV-Bat"/>
-                <constraint firstItem="Ptr-Ha-vwn" firstAttribute="centerX" secondItem="1Sz-H0-AGX" secondAttribute="centerX" id="gGY-C0-poe"/>
                 <constraint firstItem="CgY-jx-70X" firstAttribute="top" secondItem="47M-YU-HAK" secondAttribute="bottom" id="pwl-ad-Bbb"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="1Sz-H0-AGX"/>

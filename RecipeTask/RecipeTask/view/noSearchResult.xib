@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DIN Next LT Arabic Regular.ttf">
+            <string>DINNextLTArabic-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="noSearchResult" customModule="RecipeTask" customModuleProvider="target">
+            <connections>
+                <outlet property="Img" destination="5my-3C-mOw" id="YK7-17-Rqn"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5my-3C-mOw">
+                    <rect key="frame" x="67" y="189.5" width="240" height="186"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="186" id="NfP-tP-tcJ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Recipe for your search Try another one" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bP-AN-48z">
+                    <rect key="frame" x="67" y="390" width="240" height="62"/>
+                    <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="21"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.80370885133743286" green="0.39194396138191223" blue="0.39002013206481934" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="6bP-AN-48z" secondAttribute="trailing" constant="68" id="5PV-CV-Kcv"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="5my-3C-mOw" secondAttribute="trailing" constant="68" id="7eX-Lw-iUk"/>
+                <constraint firstItem="6bP-AN-48z" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="67" id="P2k-a4-zs7"/>
+                <constraint firstItem="6bP-AN-48z" firstAttribute="top" secondItem="5my-3C-mOw" secondAttribute="bottom" constant="14.5" id="PZY-co-SMO"/>
+                <constraint firstItem="5my-3C-mOw" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" constant="-61" id="c6D-6d-DXX"/>
+                <constraint firstItem="5my-3C-mOw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="67" id="ql5-Um-M8t"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="25.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

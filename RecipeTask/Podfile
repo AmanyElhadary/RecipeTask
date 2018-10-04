@@ -10,6 +10,6 @@ target 'RecipeTask' do
   pod 'Alamofire'
   pod 'AlamofireObjectMapper'
   pod 'HanekeSwift', :git => 'https://github.com/Haneke/HanekeSwift.git', :branch => 'feature/swift-3'
-  pod 'Toast-Swift'
+  pod 'ActiveLabel'
 
 end

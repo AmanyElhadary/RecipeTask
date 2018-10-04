@@ -26,7 +26,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ayf-Fm-iqz">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ayf-Fm-iqz">
                     <rect key="frame" x="40" y="156" width="297" height="247"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="247" id="5u5-s7-bW2"/>
@@ -34,17 +34,17 @@
                         <constraint firstAttribute="width" secondItem="ayf-Fm-iqz" secondAttribute="height" multiplier="251:169" constant="-69.846153846153868" id="eS3-lX-a5X"/>
                     </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="wait for loading please" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwO-Qm-cbd">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="please  wait loading .." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwO-Qm-cbd">
                     <rect key="frame" x="21" y="403" width="335" height="39"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="39" id="ma3-Rq-EBW"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="18"/>
-                    <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="21"/>
+                    <color key="textColor" red="0.60079735519999999" green="0.19398662450000001" blue="0.4056833386" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="0.94955247639999996" green="0.96453839539999997" blue="0.98190170529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="ayf-Fm-iqz" firstAttribute="centerY" secondItem="ZEO-HM-gKG" secondAttribute="centerY" constant="-64" id="Y8u-VV-cCS"/>
                 <constraint firstItem="bwO-Qm-cbd" firstAttribute="leading" secondItem="ZEO-HM-gKG" secondAttribute="leading" constant="21" id="ahi-I1-AlG"/>
