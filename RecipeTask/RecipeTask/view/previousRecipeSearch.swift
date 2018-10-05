@@ -58,16 +58,25 @@ class previousRecipeSearch: UIView {
         prviousSearchTable.dataSource = self
         // Register to receive notification
         NotificationCenter.default.addObserver(self, selector: #selector(previousRecipeSearch.Reloadtable), name: Notification.Name("ReloadPreviousSearchData"), object: nil)
+
+
+
         return view
     }
    @objc func Reloadtable (){
         RecipePreviousSearchData = Constants.UserDefaultHelper.getPreviousSearchData()
+        let indexPath = IndexPath(row: 0, section: 0)
+        prviousSearchTable.scrollToRow(at: indexPath, at: .top, animated: false)
         prviousSearchTable.reloadData()
     }
 
 }
 extension previousRecipeSearch : UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+
+        let SelectDataDict:[String: String] = ["Textselected": RecipePreviousSearchData![indexPath.row]]
+        // Post a notification
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "SelectDataFromSearchBox"), object: nil, userInfo: SelectDataDict)
 
 
     }

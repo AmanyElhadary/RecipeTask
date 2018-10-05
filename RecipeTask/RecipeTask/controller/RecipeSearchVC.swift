@@ -38,11 +38,23 @@ class RecipeSearchVC: UIViewController {
         SetupSearchController()
         // Register to receive notification
         NotificationCenter.default.addObserver(self, selector: #selector(RecipeSearchVC.HideSearchPreviousDataView), name: Notification.Name("HideSearchPreviousDataView"), object: nil)
+
+        // Register to receive notification
+        NotificationCenter.default.addObserver(self, selector: #selector(RecipeSearchVC.SelectDataFromSearchBox(notification:)), name: Notification.Name("SelectDataFromSearchBox"), object: nil)
+
         RecipeSearchTable.estimatedRowHeight = 167
         RecipeSearchTable.rowHeight = UITableViewAutomaticDimension
     }
     @objc func HideSearchPreviousDataView(){
         self.previousSerachDataView.alpha = 0
+
+    }
+    @objc func SelectDataFromSearchBox(notification: NSNotification){
+        if let searchtext = notification.userInfo?["Textselected"] as? String {
+            RecipesearchController.searchBar.text = searchtext
+            previousSerachDataView.alpha = 0
+        }
+
 
     }
     func SetupSearchController (){
@@ -91,6 +103,11 @@ class RecipeSearchVC: UIViewController {
 
 
     func GetRecipeSearchData () {
+        self.NoSearchReusltView.alpha = 0
+        self.networkerrorView.alpha = 0
+        if (RecipeData.count == 0 ){
+            self.LoadingView.alpha = 1}
+        else {self.LoadingView.alpha = 0}
         LoadingIndicator.alpha = 1
         LoadingIndicator.startAnimating()
     if Reachability.isConnectedToNetwork() == true {

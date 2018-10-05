@@ -26,14 +26,14 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5my-3C-mOw">
-                    <rect key="frame" x="67" y="189.5" width="240" height="186"/>
+                    <rect key="frame" x="67" y="176.5" width="240" height="186"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="186" id="NfP-tP-tcJ"/>
                     </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Recipe for your search Try another one" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bP-AN-48z">
-                    <rect key="frame" x="67" y="390" width="240" height="62"/>
-                    <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Recipe for your search Try another one" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6bP-AN-48z">
+                    <rect key="frame" x="67" y="377" width="240" height="110.5"/>
+                    <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="25"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -44,7 +44,7 @@
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="5my-3C-mOw" secondAttribute="trailing" constant="68" id="7eX-Lw-iUk"/>
                 <constraint firstItem="6bP-AN-48z" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="67" id="P2k-a4-zs7"/>
                 <constraint firstItem="6bP-AN-48z" firstAttribute="top" secondItem="5my-3C-mOw" secondAttribute="bottom" constant="14.5" id="PZY-co-SMO"/>
-                <constraint firstItem="5my-3C-mOw" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" constant="-61" id="c6D-6d-DXX"/>
+                <constraint firstItem="5my-3C-mOw" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" constant="-74" id="c6D-6d-DXX"/>
                 <constraint firstItem="5my-3C-mOw" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="67" id="ql5-Um-M8t"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>

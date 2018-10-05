@@ -39,22 +39,21 @@ class Constants: NSObject {
                     else {
                 if (myStoredArr.count == UserDefaultHelper.PerviousSearchDataCount)
                 {
-                    myStoredArr.remove(at: 0)
-                    myStoredArr.append(searchText)
+                    myStoredArr.removeLast()
                 }
-                else if (myStoredArr.count < UserDefaultHelper.PerviousSearchDataCount)
-                {
-                    myStoredArr.append(searchText)
+                    myStoredArr.insert(searchText, at: 0)
                     UserDefaults.standard.set(myStoredArr, forKey: UserDefaultHelper.StoredUserDefaultKey)
-                    
-                }
                         return
                 }
+                let FoundedIndex = myStoredArr.index(of: searchText)
+                myStoredArr.remove(at: FoundedIndex!)
+                myStoredArr.insert(searchText, at: 0)
+                UserDefaults.standard.set(myStoredArr, forKey: UserDefaultHelper.StoredUserDefaultKey)
             }
             else
             {
                 var PrevoisSearchArr = [String]()
-                PrevoisSearchArr.append(searchText)
+                PrevoisSearchArr.insert(searchText, at: 0)
                 UserDefaults.standard.set(PrevoisSearchArr, forKey: UserDefaultHelper.StoredUserDefaultKey)
 
             }

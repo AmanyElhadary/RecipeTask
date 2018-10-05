@@ -33,11 +33,11 @@
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connection Error !" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CgY-jx-70X">
-                    <rect key="frame" x="117.5" y="437" width="141.5" height="39"/>
+                    <rect key="frame" x="89.5" y="437" width="196.5" height="39"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="39" id="gUr-mA-9Z2"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="18"/>
+                    <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="25"/>
                     <color key="textColor" red="0.60079735519999999" green="0.19398662450000001" blue="0.4056833386" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>

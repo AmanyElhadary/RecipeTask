@@ -34,12 +34,12 @@
                         <constraint firstAttribute="width" secondItem="ayf-Fm-iqz" secondAttribute="height" multiplier="251:169" constant="-69.846153846153868" id="eS3-lX-a5X"/>
                     </constraints>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="please  wait loading .." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwO-Qm-cbd">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading .." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwO-Qm-cbd">
                     <rect key="frame" x="21" y="403" width="335" height="39"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="39" id="ma3-Rq-EBW"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="21"/>
+                    <fontDescription key="fontDescription" name="DINNextLTArabic-Regular" family="DIN Next LT Arabic" pointSize="26"/>
                     <color key="textColor" red="0.60079735519999999" green="0.19398662450000001" blue="0.4056833386" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
