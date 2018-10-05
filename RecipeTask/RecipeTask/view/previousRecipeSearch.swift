@@ -65,8 +65,6 @@ class previousRecipeSearch: UIView {
     }
    @objc func Reloadtable (){
         RecipePreviousSearchData = Constants.UserDefaultHelper.getPreviousSearchData()
-        let indexPath = IndexPath(row: 0, section: 0)
-        prviousSearchTable.scrollToRow(at: indexPath, at: .top, animated: false)
         prviousSearchTable.reloadData()
     }
 

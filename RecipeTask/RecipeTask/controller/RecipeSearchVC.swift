@@ -27,6 +27,10 @@ class RecipeSearchVC: UIViewController {
     var refreshRecipeData: UIRefreshControl!
     let RecipesearchController = UISearchController(searchResultsController: nil)
 
+    override func viewWillAppear(_ animated: Bool) {
+        RecipesearchController.searchBar.resignFirstResponder()
+    }
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -243,7 +247,7 @@ extension RecipeSearchVC : UISearchBarDelegate{
         self.RecipeSearchTable.reloadData()
         self.previousSerachDataView.alpha = 0
         NotificationCenter.default.post(name: Notification.Name("ReloadPreviousSearchData"), object: nil)
-
+        searchBar.endEditing(true)
 
     }
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
@@ -264,16 +268,18 @@ extension RecipeSearchVC : UISearchBarDelegate{
         }
     }
 
-
 }
 extension RecipeSearchVC : UISearchResultsUpdating {
     func updateSearchResults(for searchController: UISearchController) {
         guard let text = searchController.searchBar.text else { return }
         searchtext = text
-
     }
 
+}
+extension RecipeSearchVC : UIScrollViewDelegate{
+     func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+        previousSerachDataView.alpha = 0
 
-
+    }
 
 }
